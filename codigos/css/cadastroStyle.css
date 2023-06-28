@@ -1,0 +1,171 @@
+  *::-webkit-scrollbar {
+  	background-color: #202324;
+  	width: 12px;
+  }
+
+
+
+  *::-webkit-scrollbar-thumb {
+  	background-color: #454a4d;
+
+
+  }
+
+  body {
+  	margin: 0;
+  }
+
+  .backgroud-img,
+  .backgroud-imgL {
+  	background-repeat: no-repeat;
+  	position: absolute;
+  	width: 100%;
+  	height: 200%;
+  	margin: 0;
+  }
+
+  .backgroud-imgL {
+  	height: 100%;
+  }
+
+  .formm1,
+  .formm2 {
+  	height: 39rem;
+
+  	margin: 0 auto;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  }
+
+  .formm1 {
+  	padding: 100px 0 0 0;
+  	height: 76rem;
+  }
+
+  img {
+  	margin: 0px 0px 50px 0px;
+  }
+
+  .formCadastro {
+  	align-self: center;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	width: 50%;
+  	margin: 0px 0px 20px 0px;
+  	margin-top: -10vh;
+  	scale: 0.7;
+  	text-align: center;
+  	background: rgba(255, 255, 255, 0.6);
+  	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  	backdrop-filter: blur(20px);
+
+  	border-radius: 20px;
+  	border: 1px solid rgba(255, 255, 255, 0.18);
+  	padding-top: 50px;
+  	padding-bottom: 50px;
+  }
+
+  .formLogin {
+  	align-self: center;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+
+  	margin: auto auto 20px auto;
+  	width: 40%;
+  	scale: 0.7;
+  	text-align: center;
+  	background: rgba(255, 255, 255, 0.6);
+  	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  	backdrop-filter: blur(20px);
+
+  	border-radius: 20px;
+  	border: 1px solid rgba(255, 255, 255, 0.18);
+  	padding-top: 50px;
+  	padding-bottom: 50px;
+  }
+
+  form label,
+  form legend {
+  	display: block;
+  	font-size: 1.5rem;
+  	font-weight: 600;
+  	margin: 0 0 10px 0;
+  }
+
+  .inputPadrao {
+  	width: 70%;
+  	margin: 0 0 20px 0;
+  	padding: 10px 15px;
+  	font-size: 1.5rem;
+  }
+
+  .inputPadraoT {
+  	width: 70%;
+  	margin: 0 0 20px 0;
+  	padding: 10px 15px;
+  	font-size: 1.5rem;
+  }
+
+  .trabalho {
+  	width: 100%;
+  }
+
+  .check {
+  	margin: 20px 0;
+  	height: 25px;
+  	width: 25px;
+  	background-color: #ff7c04;
+  	border-radius: 50%;
+  }
+
+  .send {
+  	width: 40%;
+  	padding: 15px 0;
+  	background: #ff7c04;
+  	color: #ffffff;
+  	font-weight: bold;
+  	font-size: 2rem;
+  	border: none;
+  	border-radius: 5px;
+  	transition: 1s all;
+  	cursor: pointer;
+  }
+
+  .send:hover {
+  	background: #ffffff;
+  	color: #ff7c04;
+  	transform: scale(1.2);
+  }
+
+  @media only screen and (max-width:850px) {
+  	.formLogin {
+  		width: 50%;
+  	}
+
+  	.formCadastro {
+  		width: 50%;
+
+  	}
+
+  }
+
+  @media only screen and (max-width:535px) {
+  	.formLogin {
+  		width: 100%;
+
+  	}
+
+  	.formCadastro {
+  		width: 100%;
+
+  	}
+
+  	.inputPadrao {
+  		font-size: 18px;
+  	}
+
+  }

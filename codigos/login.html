@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./css/cadastroStyle.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="shortcut icon" type="image/x-icon" href="./img/LOGOijuda.png">
+  <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+    crossorigin="anonymous"></script>
+  <title>Login I-juda</title>
+</head>
+
+<body>
+  <img class="backgroud-imgL" src="./img/bg.jpg">
+  <div class="formm2">
+    <form class="formLogin" onsubmit="loginUser (this)">
+      <img src="./img/LOGOijuda.png" alt="">
+
+      <label for="email">E-mail</label><br>
+      <input type="email" name="email" id="email" class="inputPadrao" autocomplete="off">
+
+      <label for="password">Senha</label><br>
+      <input type="password" name="password" id="password" class="inputPadrao" autocomplete="off">
+
+      <input type="submit" name="submit" class="send" value="Entrar">
+    </form>
+  </div>
+  <script src="./src/login.js"></script>
+</body>
+
+</html>

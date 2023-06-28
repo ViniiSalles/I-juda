@@ -1,0 +1,129 @@
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    background-color: #202324;
+    width: 12px;
+}
+
+
+
+*::-webkit-scrollbar-thumb {
+    background-color: #454a4d;
+
+
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+/* INDEX.HTML */
+/* header */
+
+.corpo-header {
+    padding: 10px 0 0 0;
+    background-color: #ff7c04;
+    color: #fff
+}
+
+.ajuste {
+    padding: 0 0 0 20px;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.bk-nav {
+    width: 20px;
+}
+
+.menu-column {
+    margin: 0;
+    display: flex;
+    width: 60%;
+    align-self: center;
+}
+
+.navbar-toggler {
+    background-color: transparent;
+    border: none;
+    width: 100px;
+    height: 100px;
+}
+
+nav {
+    width: 150px;
+}
+
+.content {
+    justify-content: space-between;
+}
+
+.sidebar-menu {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.main-content {
+    margin-top: 70px;
+    /* Ajuste a margem superior conforme necessário */
+}
+
+
+
+/* main */
+
+.main-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    padding: 20px 20px 20px 20px;
+    background-color: #FFE2C7;
+    color: black;
+    opacity: 1
+}
+
+.main-title h3 {
+    font-size: 3.5rem;
+    font-family: brownstd-regular;
+
+}
+
+.main-title p {
+    padding: 0 0 0 5px;
+
+}
+
+.main-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff7c04;
+    font-size: 3.5rem;
+    font-family: brownstd-regular;
+    height: 300px;
+}
+.teto{
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navigation{
+    text-align: center;
+}
+#passageFiltro{
+    cursor: pointer;
+}

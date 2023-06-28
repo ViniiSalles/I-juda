@@ -1,0 +1,77 @@
+*::-webkit-scrollbar {
+	background-color: #202324;
+	width: 12px;
+}
+
+
+
+*::-webkit-scrollbar-thumb {
+	background-color: #454a4d;
+
+
+}
+
+.corpo-header {
+	padding: 10px 0 0 0;
+	background-color: #000;
+	color: #fff
+}
+
+.logo {
+	width: 50%;
+}
+
+.button {
+	margin-top: 40px;
+}
+
+.info {
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	margin: auto auto 20px auto;
+	width: 40%;
+	scale: 0.7;
+	text-align: center;
+	font-size: 200%;
+	background: rgba(255, 255, 255, 0.6);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+
+	border-radius: 20px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.inputPadrao {
+	width: 70%;
+	margin: 0 0 20px 0;
+	padding: 10px 15px;
+	font-size: 1.5rem;
+}
+
+@media only screen and (max-width:850px) {
+	.info {
+		width: 50%;
+	}
+
+	.info {
+		width: 50%;
+
+	}
+
+}
+
+@media only screen and (max-width:535px) {
+	.info {
+		width: 100%;
+
+	}
+
+	.inputPadrao {
+		font-size: 18px;
+	}
+
+}

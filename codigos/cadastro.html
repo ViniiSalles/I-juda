@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./css/cadastroStyle.css">
+	<link rel="shortcut icon" type="image/x-icon" href="./img/LOGOijuda.png">
+	<script src="https://code.jquery.com/jquery-3.7.0.js"
+		integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+	<title>Cadastro I-juda</title>
+</head>
+
+<body>
+	<main>
+		<img class="backgroud-img" src="./img/bg.jpg">
+		<div class="formm1">
+			<form class="formCadastro">
+				<img src="./img/LOGOijuda.png" alt="">
+
+				<label for="nome">Nome Completo</label>
+				<input type="text" id="nome" class="inputPadrao" autocomplete="off">
+
+				<label for="email">E-mail</label>
+				<input type="email" id="email" class="inputPadrao" placeholder="seuemail@dominio.com"
+					autocomplete="off">
+
+				<label for="senha">Senha</label>
+				<input type="password" id="senha" class="inputPadrao" autocomplete="off">
+
+				<label for="cell">Telefone</label>
+				<input type="text" id="cel" class="inputPadrao" placeholder="(12) 34567-8910" autocomplete="off">
+
+				<label for="adress">Endereço</label>
+				<input type="text" id="adress" class="inputPadrao" placeholder="Rua -------, numero XX"
+					autocomplete="off">
+
+				<label for="bairro">Bairro</label>
+				<input type="text" id="bairro" class="inputPadrao" placeholder="Bairro Palmares" autocomplete="off">
+
+				<label for="CEP">CEP</label>
+				<input type="number" id="cep" class="inputPadrao" placeholder="12345-678" autocomplete="off">
+
+				<label for="container" class="container"> Quer trabalhar conosco? <input type="checkbox" class="check"
+						onclick="displaytrabalho()"></label>
+				<div class="trabalho" style="display: none;">
+
+					<label for="job">Profissão</label>
+					<input type="text" id="job" class="inputPadraoT" placeholder="Pedreiro" autocomplete="off">
+
+					<label for="xp">Anos de trabalho</label>
+					<input type="number" id="xp" class="inputPadraoT" placeholder="10" autocomplete="off">
+
+				</div>
+				<button type="button" id="button" class="send">Enviar Cadastro</button>
+			</form>
+		</div>
+	</main>
+	<script src="./src/cadastro.js"></script>
+</body>
+
+</html>
